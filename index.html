@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Bamo Recycling - PET Recycling Center">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Bamo Recycling">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="logo.png"/>
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Bamo Recycling - PET Recycling Center">
+  <meta property="og:description" content="We specialize in high-quality PET recycling. Learn more about our services.">
+  <meta property="og:image" content="https://bamo.dz/assets/images/logo.png">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bamo Recycling - PET Recycling Center">
+  <meta name="twitter:description" content="We specialize in high-quality PET recycling.">
+  <meta name="twitter:image" content="https://bamo.dz/assets/images/logo.png">
+
+  <title>Bamo Recycling</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    const serviceWorkerVersion = "1407848754";
+  </script>
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
